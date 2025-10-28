@@ -1,0 +1,132 @@
+Password Strength Evaluation Report
+
+Objective
+
+-> To understand what makes a password strong by testing different passwords using online password strength checkers and analyzing how complexity impacts security.
+
+Tools Used
+
+-> Password Strength Checker:https://passwordmeter.com
+
+Tested Passwords and Results
+Password	       Description	                       Score (%)	        Feedback (Summary)
+
+pritam	                 Simple lowercase                    	8%	        Too short, common word, no numbers or symbols.
+Pritam	                 Mixed case                             22%	        Good , but easily accessable.
+Pritam0                  Mixed case + numbers                   40%             Better but lacks special symbol.
+Pritamdutta0	         Mixed case + numbers + symbol	        66%	        Stronger; longer and diverse characters.
+Pritamdutta0@	         Long + mixed +  symbol	                85%	        Very strong; hard to guess or brute force.
+P@r0it&am!!du0tta1	 Random + complex	                100%	        Excellent entropy; extremely resistant to attacks.
+
+
+
+Observations
+
+-Passwords combining uppercase, lowercase, numbers, and symbols received higher scores.
+-Longer passwords significantly increase strength.
+-Avoiding dictionary words reduces vulnerability to dictionary attacks.
+-Using random or unrelated characters adds unpredictability.
+
+
+Common Password Attacks summary
+
+Brute Force Attack 
+--> Attackers try every possible combination of characters until the correct password is found.
+
+Weakness: Short or simple passwords.
+Defense: Use long, complex passwords and enable account lockout or 2FA.
+
+
+Dictionary Attack
+--> Uses a list of common words or leaked passwords to guess the right one.
+
+Weakness: Use of real words or predictable patterns.
+Defense: Avoid dictionary words; mix random letters, numbers, and symbols.
+
+
+Phishing Attack
+--> Attackers trick users into revealing passwords via fake emails or websites.
+
+Weakness: Human error and lack of awareness.
+Defense: Verify links and use multi-factor authentication (MFA).
+
+
+Credential Stuffing
+--> Uses stolen usernames and passwords from other breaches to access different accounts.
+
+Weakness: Reusing the same password across sites.
+Defense: Use unique passwords and password managers.
+
+
+
+Best Practices for Creating Strong Passwords
+
+-> Use at least 12–16 characters.
+
+-> Include uppercase, lowercase, numbers, and special symbols.
+
+-> Avoid personal information (name, DOB, etc.).
+
+-> Don’t reuse passwords across sites.
+
+-> Use passphrases (e.g., “C@tJumpsOver#Fence2025”).
+
+-> Store passwords securely (e.g., password manager).
+
+
+
+Key Takeaways:
+
+Password Length is the Strongest Defense:
+
+-> The longer the password, the harder it becomes to crack through brute force or dictionary attacks.
+-> Each additional character exponentially increases the number of possible combinations.
+
+
+Complexity Adds Layers of Security:
+
+-> Combining uppercase, lowercase, numbers, and symbols drastically improves password entropy (randomness).
+-> Avoid predictable patterns such as “Password123!” or replacing letters with similar symbols (“p@ssw0rd”).
+
+
+Uniqueness Prevents Chain Breaches:
+
+-> Reusing the same password on multiple sites allows attackers to compromise several accounts through credential stuffing.
+-> Every account should have a different password for true protection.
+
+
+Randomness Beats Memorability:
+
+-> Random, unrelated combinations (e.g., A@1bC#2dE$3fG%4) are much stronger than meaningful words or dates.
+-> Password managers can help generate and store such random passwords securely.
+
+
+Awareness is as Important as Strength:
+
+-> Even the strongest password can be stolen through phishing or keylogging.
+-> Users must be aware of social engineering tactics and always verify suspicious messages or links.
+
+
+Two-Factor Authentication (2FA) is a Must:
+
+-> Adding 2FA ensures that even if a password is compromised, the attacker still needs another verification step (like an OTP or authentication app).
+
+
+Regular Updates Reduce Risk:
+
+-> Changing passwords periodically and immediately after a breach helps prevent long-term exposure.
+-> It’s also important to check for data breaches using services like “Have I Been Pwned”.
+
+
+Security Tools Help Identify Weaknesses:
+
+-> Online checkers like PasswordMeter provide useful insights into password strength and suggest improvements.
+-> They can highlight issues like repetition, common patterns, or missing character types.
+
+
+Conclusion
+
+The study on password strength revealed that security largely depends on length, complexity, and uniqueness. Simple and short passwords are easily compromised through brute force or dictionary attacks, while long, random, and mixed-character passwords offer significantly higher protection. Testing results from PasswordMeter confirmed that incorporating uppercase and lowercase letters, numbers, and symbols strengthens passwords considerably.
+
+In addition, awareness of common password attacks and safe online practices is essential. Combining strong passwords with additional measures such as two-factor authentication (2FA) and avoiding password reuse provides a strong defense against modern cyber threats. Overall, maintaining good password hygiene is one of the simplest yet most effective ways to safeguard digital accounts and personal data.
+
